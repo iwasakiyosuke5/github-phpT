@@ -1,0 +1,15 @@
+node_modules
+fonts
+new.html
+*.json
+*.config.js
+*key
+*pdf
+*vscord
+*.sql
+example
+uploaded_files
+vendor
+*lock
+test_pdf_parser.php
+text.php
