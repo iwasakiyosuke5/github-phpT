@@ -181,7 +181,7 @@ $row = $stmt->fetch(PDO::FETCH_ASSOC);
                 </div>
                 <div class="my-1">Operator：<input class="bg-slate-300 mb-1 px-1 rounded w-3/5" type="text" name="Operator" value="<?=$row['Operator']?>" required></div>
                 <div class="my-1 pt-1 bg-pink-100 rounded-md">
-                  <div class="flex justify-center">MW ：<input class="bg-slate-300 mb-1 px-1 rounded w-2/5" type="text" name="MW" value="<?=$row['MW']?>"  placeholder="ex)550.35" required></div>
+                  <div class="flex justify-center">MW ：<input class="bg-slate-300 mb-1 px-1 rounded w-2/5" type="text" name="MW" value="<?=$row['MW']?>"  placeholder="ex)1702.91 (not 1,702.91)" required></div>
                   <div>
                     <div class="flex justify-center">
                       <div>-OH/-SH ：<input class="bg-slate-300 mb-1 px-1 rounded w-2/5" type="text" name="OH" value="<?=$row['OH']?>" placeholder="ex)0" required></div>
